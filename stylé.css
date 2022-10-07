@@ -1,0 +1,47 @@
+header{
+    height: 10vh;
+    background-color: rgb(250, 243, 242);
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+section{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+div {
+    width: 300px;
+    height: 300px;
+}
+.white {
+    background-color: white;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+}
+.beige {
+    background-color:white;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+}
+.homies{
+    display: flex;
+
+    align-items: flex-start;
+    opacity: 0.5;
+}

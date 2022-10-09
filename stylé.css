@@ -7,15 +7,16 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 17px;
 }
 nav ul{
     display: flex;
     gap: 40px;
     list-style: none;
 }
-section{
+.nest-photo{
     background-color: white;
-    height: 100vh;
+    height: 125vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -26,22 +27,139 @@ section{
 
 
 div {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 400px;
+
 }
 .white {
-    background-color: white;
     font-family: 'Playfair Display SC', serif;
     font-size: 50px;
+    text-align: center;
+   
 }
-.beige {
-    background-color:white;
-    font-family: 'Playfair Display SC', serif;
-    font-size: 50px;
-}
+
+
 .homies{
     display: flex;
-
+     
     align-items: flex-start;
-    opacity: 0.5;
+}
+.nest-photo{
+    background-image: url(C-nestduo.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    
+}
+h2{
+    font-family:'Lora', serif;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: double;
+    color: grey;
+    padding: 20px;
+    height: 10vh;
+
+
+}
+.salon{
+    background-color: white;
+    height: 75vh;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    display: flex;
+}
+h3{
+    font-family:'Lora', serif;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: double;
+    color: grey;
+    padding: 20px;
+    height: 10vh;
+
+}
+.caracteristiq{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+   
+}
+.ari{
+    font-family:'Lora', serif;
+    font-size: 45px;
+    text-align: left;
+    color: rgba(165, 159, 159, 0.842);
+    width: 500px;
+
+}
+.niky{
+    color: rgba(0, 0, 0, 0.921);
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Mukta', sans-serif;
+}
+.tea{
+    color: rgba(0, 0, 0, 0.921);
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Mukta', sans-serif;
+}
+.soso{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 70px;
+    
+}
+
+
+h4{
+    font-family:'Lora', serif;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: double;
+    color: grey;
+    padding: 20px;
+    height: 10vh;
+    background-color: rgb(250, 243, 242); 
+}
+
+.aba{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.assa{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.acra{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+.afa{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+h5{
+     background-color: rgb(250, 243, 242);
+     padding: 50px;
+     font-family:'Fjalla One', sans-serif;
+     font-size: 32px;
+     text-align: center;
+     color: plum;
 }
